@@ -2,7 +2,7 @@
 
 This project has three features A, B and C, just like its counterpart [Single Module Application]([url](https://github.com/bigandroidenergies/SingleModuleApplication)https://github.com/bigandroidenergies/SingleModuleApplication)
 
-In comparison to its counterpart in this project the features are extracted into their own modules and the feature modules does not have a direct dependency to other feature modules. The feature modules are able to navigate to other feature modules via a `FeatureStarter` which lives in the parent `app` module and passed down to the feature activities via intent extras.
+In comparison to its counterpart in this project the features are extracted into their own modules and the feature modules does not have a direct dependency to other feature modules. The feature modules are able to navigate to other feature modules via a [FeatureStarter](https://github.com/bigandroidenergies/MultiModuleApplication/blob/main/app/src/main/java/com/example/multimoduleapplication/FeatureStarter.kt) which lives in the parent `app` module and passed down to the feature activities via intent extras.
 
 Here are some build scans for different test cases:
 * [Clean build](https://scans.gradle.com/s/ohdxa6udffqwa/timeline)
