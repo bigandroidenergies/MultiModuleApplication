@@ -1,4 +1,4 @@
-# Testing project for multi modula application builds
+# Testing project for multi module application builds
 
 This project has three features A, B and C, just like its counterpart [Single Module Application]([url](https://github.com/bigandroidenergies/SingleModuleApplication)https://github.com/bigandroidenergies/SingleModuleApplication)
 
